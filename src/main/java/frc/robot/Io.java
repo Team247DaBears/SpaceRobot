@@ -1,8 +1,10 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.SpeedController;
 import edu.wpi.first.wpilibj.Talon;
+import edu.wpi.first.wpilibj.drive.MecanumDrive;
 
 public class Io  {
   
@@ -53,6 +55,7 @@ public class Io  {
     //  public static Joystick leftStick;  
     //  public static Joystick rightStick;
 
+    public static MecanumDrive meccDrive;
 
     //All functions of this class should be declared as static.
     //We will never have more than one of this class, so we'll just use statics.
@@ -65,11 +68,12 @@ public class Io  {
         //leftDriveMotor =new Talon(LEFTSIDEMOTOR_PWMPORT);  //Notice we don't say Victor(0).  That makes it easier to change.
                                                            //If we always use the symbolic names, we can change what port they are plugged in to
                                                            //by only changing one line of code.
-        //leftDriveMotor.setInverted(false);  //Keep the initialization next to the instantiation.  That way
-                                              //All of the startup code for each object is in one place.
+                                             //All of the startup code for each object is in one place.
 
-        //Repeat for all of the objects.                                      
-
+        //Repeat for all of the objects.     
+        
+        //=new MecanumDrive(frontLeftMotor, rearLeftMotor, frontRightMotor, rearRightMotor);
+        
     }
 
 
