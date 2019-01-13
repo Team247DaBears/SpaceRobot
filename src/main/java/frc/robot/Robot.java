@@ -12,11 +12,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 //Git test - added by DavidLLame
-<<<<<<< HEAD
 //Git test  - merge required.
-=======
 //Another git test.  Added by DavidLLame
->>>>>>> ac9af9183fde2499d86d450ceefd0980e6085621
 
 /**
  * The VM is configured to automatically run this class, and to call the
